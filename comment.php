@@ -61,8 +61,9 @@ if(isset($submit)) {
     // var_dump($comments);
     if ($forums) {
         foreach ($forums as $forum) {
-            echo "<h2>".$forum['name']."</h2>";
-            echo "<h3>".$forum['description']."</h3>";
+            echo "<h4>User: ".$forum['user']."</h4>";
+            echo "<h2>Title: ".$forum['name']."</h2>";
+            echo "<h3>Beschrijving: ".$forum['description']."</h3>";
             echo "<br>";
         }
     }
