@@ -1,11 +1,11 @@
 /* all */
 /* nav heeft geen ruimte meer tussen kop en randen maar de text is tegen te rand aan */
-/*
+
 * {
   margin: 0;
   padding: 0;
 }
-*/
+
 
 /* Header */
 
@@ -39,10 +39,13 @@ nav li a:hover {
 /* body */
 .home {
   float: left;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .populair {
   float: right;
+  padding-top: 10px;
 }
 
 /* Footer */
