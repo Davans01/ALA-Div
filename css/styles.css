@@ -1,9 +1,40 @@
 /* Header */
 
 /* Nav */
-body{
-    background-color: orange;
+/* nav heeft ruimte tussen de kop en kanten */
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: purple;
+  margin-top: 0;
 }
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  background-color:rgb(150, 117, 170);
+}
+
+
+/* body */
+#home {
+  float: left;
+}
+
+#populair {
+  float: right;
+}
+
 /* Footer */
 /* To make the footer fixed */
 footer {
@@ -14,10 +45,4 @@ footer {
   background-color: purple;
   color: white;
   text-align: center;
-}
-
-li{
-  float: left;
-
-
 }
