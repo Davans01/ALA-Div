@@ -1,12 +1,25 @@
+/* all */
+/* nav heeft geen ruimte meer tussen kop en randen maar de text is tegen te rand aan */
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
 /* Header */
 
 /* Nav */
-/* nav heeft ruimte tussen de kop en kanten */
+/* nav heeft ruimte tussen de kop en randen */
+nav {
+  overflow: hidden;
+}
 nav ul {
   list-style-type: none;
   overflow: hidden;
   background-color: purple;
   margin-top: 0;
+  padding-left: 5px;
 }
 
 nav li {
@@ -16,22 +29,22 @@ nav li {
 nav li a {
   display: block;
   text-align: center;
-  padding: 12px 10px;
+  padding: 10px 10px;
   text-decoration: none;
   color: white;
+  opacity: 0.6;
 }
 
 nav li a:hover {
   background-color:rgb(150, 117, 170);
 }
 
-
 /* body */
-#home {
+.home {
   float: left;
 }
 
-#populair {
+.populair {
   float: right;
 }
 
