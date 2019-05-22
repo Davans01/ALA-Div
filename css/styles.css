@@ -1,7 +1,9 @@
 /* all */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -15,7 +17,7 @@ header img {
 nav ul {
   list-style-type: none;
   overflow: hidden;
-  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.767) , rgba(133, 31, 192, 0.904), rgba(13, 0, 128, 0.767));
+  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.8) , rgba(133, 31, 192, 0.76), rgba(13, 0, 128, 0.8));
   margin-top: 0;
   padding-left: 5px;
 }
@@ -35,7 +37,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color:rgb(150, 117, 170);
+  background-color:rgb(173, 145, 190);
 }
 
 /* body */
@@ -51,12 +53,14 @@ nav li a:hover {
 .populair {
   float: right;
   padding-top: 10px;
+  border: 2px 0px 2px 2px solid black;
 }
 
 .populair img {
   width: 250px;
   height: 150px;
-  padding-right: 10px
+  padding-right: 10px;
+  
 }
 
 .forum {
@@ -84,7 +88,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.767) , rgba(133, 31, 192, 0.904), rgba(13, 0, 128, 0.767));
+  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.8) , rgba(133, 31, 192, 0.945), rgba(13, 0, 128, 0.8));
   color: white;
   text-align: center;
 }
