@@ -59,6 +59,15 @@ nav li a:hover {
   padding-right: 10px
 }
 
+.forum {
+  padding-top: 100px;
+  padding-left: 10px;
+}
+
+.comment {
+  padding-left: 10px;
+}
+
 /* post pagina */
 .form {
   padding-left: 10px;
