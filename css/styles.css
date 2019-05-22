@@ -1,16 +1,17 @@
 /* all */
-/* nav heeft geen ruimte meer tussen kop en randen maar de text is tegen te rand aan */
-
 * {
   margin: 0;
   padding: 0;
 }
 
-
 /* Header */
+header img {
+  padding-top: 5px;
+  width: 150px;
+  height: 30px;
+}
 
 /* Nav */
-/* nav heeft ruimte tussen de kop en randen */
 nav ul {
   list-style-type: none;
   overflow: hidden;
@@ -37,6 +38,9 @@ nav li a:hover {
 }
 
 /* body */
+
+
+/* index pagina */
 .home {
   float: left;
   padding-left: 10px;
@@ -52,6 +56,15 @@ nav li a:hover {
   width: 250px;
   height: 150px;
   padding-right: 10px
+}
+
+/* post pagina */
+.form {
+  padding-left: 10px;
+}
+
+.form input, textarea {
+  padding-left: 5px;
 }
 
 /* Footer */

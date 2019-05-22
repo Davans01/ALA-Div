@@ -25,11 +25,16 @@ if(isset($submit)) {
         <?php include("include/head.php"); ?>
     </head>
 <body>
-    <?php include("include/header.php");
+    <?php include("include/header.php"); ?>
+
+    <div class="form">
+    
+    <?php
     if (!empty($error)) {
         echo $error;
     }
     ?>
+    
     <form method="POST">
         <table>
             <tr><td>Username: <input type="text" name="user"></td></tr>
@@ -40,5 +45,6 @@ if(isset($submit)) {
         </table>
     </form>
 
+    </div>
 
 </html>
