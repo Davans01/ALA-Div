@@ -36,7 +36,7 @@ include("include/config.php");
         </p>
     </div>
 
-    
+    <div class="forum">
            <?php
            mysqli_select_db($conn, 'join_up');
            $sql = "SELECT * FROM forum";
@@ -57,6 +57,7 @@ include("include/config.php");
            // print_r($result);
 
            ?>
+    </div>
         <footer>
             <!-- Include footer.php -->
             <?php include("include/footer.php") ?>
