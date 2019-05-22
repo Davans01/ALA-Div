@@ -15,7 +15,7 @@ header img {
 nav ul {
   list-style-type: none;
   overflow: hidden;
-  background-image: linear-gradient(to right, rgba(128, 0, 128, 0.767) , rgba(192, 31, 192, 0.904), rgba(223, 11, 223, 0.712));
+  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.767) , rgba(133, 31, 192, 0.904), rgba(13, 0, 128, 0.767));
   margin-top: 0;
   padding-left: 5px;
 }
@@ -28,7 +28,7 @@ nav li {
 nav li a {
   display: block;
   text-align: center;
-  padding: 10px 10px;
+  padding: 20px 20px;
   text-decoration: none;
   color: white;
   opacity: 0.6;
@@ -84,7 +84,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(128, 0, 128, 0.767) , rgba(192, 31, 192, 0.904), rgba(223, 11, 223, 0.712));
+  background-image: linear-gradient(to right, rgba(13, 0, 128, 0.767) , rgba(133, 31, 192, 0.904), rgba(13, 0, 128, 0.767));
   color: white;
   text-align: center;
 }
