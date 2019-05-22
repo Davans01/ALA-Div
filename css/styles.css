@@ -48,6 +48,11 @@ nav li a:hover {
   padding-top: 10px;
 }
 
+.populair img {
+  width: 300px;
+  height: 200px;
+}
+
 /* Footer */
 /* To make the footer fixed */
 footer {
