@@ -1,5 +1,6 @@
 <?php
 include("include/config.php");
+
 if ($_GET['id']) {
     $id = $_GET['id'];
 }
@@ -23,6 +24,7 @@ if(isset($submit)) {
     }
 // END COMMENT
 
+
 // FORUM
 // if(isset($submit)) {
 //     if($name && $comment) {
@@ -37,6 +39,7 @@ if(isset($submit)) {
         $error = "Vul alsublieft uw naam en comment in";
     }
 }
+
 ?>
 <!DOCTYPE HTML>
 <html lang="nl">
@@ -45,6 +48,7 @@ if(isset($submit)) {
     </head>
 <body>
     <?php include("include/header.php");
+    echo "<div class='comment'>";
     if (!empty($error)) {
         echo $error;
     }
@@ -89,6 +93,6 @@ if(isset($submit)) {
             <tr><td colspan="2"><input type="submit" name="submit" value="Plaats uw comment hier">
         </table>
     </form>
-
+    </div>
 
 </html>
