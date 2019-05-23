@@ -46,6 +46,7 @@ include("include/config.php");
           <p class="introtext">Bent u een gamer en zoekt u andere gamers? Dan bent u hier op de juiste plek! Op deze website kunt u aan LAN-Partys meedoen en ze zelf hosten.
         </p>
         </div>
+        <!-- Create columns and creating the main content of the home page -->
         <div class="col-sm">
         <h2 class="game">Populaire games:</h2>
         <h3 class="game"> League of Legends </h3>
@@ -58,15 +59,7 @@ include("include/config.php");
         <img class="game" src="image/siege.jpg" width="350px" height="200px" alt="Rainbow Six Siege">
         </div>
     </div>
-    </div>
-
-
-
-    <div class="container">
-
-    </div>
-
-    <br> <br> <br>
+    <br><br><br>
 
         <footer>
             <!-- Include footer.php -->

@@ -86,5 +86,6 @@ if(isset($submit)) {
         </table>
     </form>
     </div>
-
+    <?php include("include/footer.php") ?>
+</body>
 </html>
