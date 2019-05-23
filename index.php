@@ -16,24 +16,26 @@ include("include/config.php");
         </header>
 
     <div class="home">
-        <p>Welkom op onze website JoinUp. <br> <br>
-           Ben jij een gamer en wil je vrienden maken in de buurt? Dit kan met onze website. <br>
-           Op deze website kunt u eigen LAN Party's organiseren, om van de gamers in de buurt, vrienden te maken.
-        <p>
+        <h1>Welkom op onze website JoinUp.</h1>
+            <br> 
+          <p> Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+        </p>
     </div>
 
 
-    <div class="populair">
-        <p>Populaire games: <br><br>
-           League of Legends <br>
-           <img src="image/lol.jpg" alt="League of Legends"> <br>
-
-           Counterstrike: Global Offensive <br>
-           <img src="image/csgo.jpg" alt="Counterstrike: Global Offence"> <br>
-
-           Rainbow Six Siege <br>
-           <img src="image/siege.jpg" alt="Rainbow Six Siege"> <br>
-        </p>
+    <div class="container">
+        <h2>Populaire games:</h2>
+        <h3> League of Legends </h3> 
+        <img src="image/lol.jpg" width="350px" height="200px" alt="League of Legends">
+        
+        <h3>Counterstrike: Global Offensive</h3> 
+        <img src="image/csgo.jpg" width="350px" height="200px" alt="Counterstrike: Global Offensive"> 
+        
+        <h3>Rainbow Six Siege</h3>
+        <img src="image/siege.jpg" width="350px" height="200px" alt="Rainbow Six Siege"> 
+        
+            
+        
     </div>
 
     <div class="forum">

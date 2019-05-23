@@ -1,9 +1,9 @@
 <header>
-    <nav>
+        <nav>
         <ul>
-            <div id="logo"><li><img src="image/logo.png"></li>
-            <div id="Homebtn"><li><a href="index.php">Home</a></li></div>
-            <div id="Postbtn"><li><a href="post.php">Een post maken</a></li></div>
-        </ul>
-    </nav>
+        <img id="logo" src="image/logo.png">
+                <li><a href="index.php" id="homebtn">Home</a></li></div>
+                <li><a href="post.php" id="postbtn">Een post maken</a></li></div>
+            </ul>
+        </nav>
 </header>
