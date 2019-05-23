@@ -47,9 +47,9 @@ if(isset($submit)) {
         <table>
             <tr><td>Username: <input type="text" name="user"></td></tr>
             <tr><td>Title: <input type="text" name="name"></td></tr>
-            <tr><td colspan="2">Comment: </td></tr>
+            <tr><td colspan="2">Content: </td></tr>
             <tr><td colspan="2"><textarea name="comment"></textarea></td></tr>
-            <tr><td colspan="2"><input type="submit" name="submit" value="Plaats uw comment hier">
+            <tr><td colspan="2"><input type="submit" name="submit" value="Maak uw post aan!">
         </table>
     </form>
 
