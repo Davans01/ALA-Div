@@ -60,11 +60,7 @@ nav li a:hover {
 .container{
   float: right;
   position: absolute;
-<<<<<<< HEAD
-  right: 225px;
-=======
   right: 350px;
->>>>>>> 1a7bbaec3c4a96b4a875e37203df88f4f1a1acc2
   height: auto;
 }
 .game{

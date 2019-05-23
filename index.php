@@ -41,12 +41,7 @@ include("include/config.php");
     </div>
         </div>
         <div class="col-sm">
-<<<<<<< HEAD
-        <!-- Main content -->
-        <h1>Welkom op onze website JoinUp.</h1>
-=======
         <h1>Welkom op de website JoinUp.</h1>
->>>>>>> 1a7bbaec3c4a96b4a875e37203df88f4f1a1acc2
             <br>
           <p class="introtext">Bent u een gamer en zoekt u andere gamers? Dan bent u hier op de juiste plek! Op deze website kunt u aan LAN-Partys meedoen en ze zelf hosten.
         </p>
