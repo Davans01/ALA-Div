@@ -47,15 +47,15 @@ include("include/config.php");
         </p>
         </div>
         <div class="col-sm">
-        <h2>Populaire games:</h2>
-        <h3> League of Legends </h3> 
-        <img class="game-img" src="image/lol.jpg" width="350px" height="200px" alt="League of Legends">
+        <h2 class="game">Populaire games:</h2>
+        <h3 class="game"> League of Legends </h3> 
+        <img class="game" src="image/lol.jpg" width="350px" height="200px" alt="League of Legends">
         
-        <h3>Counterstrike: Global Offensive</h3> 
-        <img class="game-img" src="image/csgo.jpg" width="350px" height="200px" alt="Counterstrike: Global Offensive"> 
+        <h3 class="game">Counterstrike: Global Offensive</h3> 
+        <img class="game" src="image/csgo.jpg" width="350px" height="200px" alt="Counterstrike: Global Offensive"> 
         
-        <h3>Rainbow Six Siege</h3>
-        <img class="game-img" src="image/siege.jpg" width="350px" height="200px" alt="Rainbow Six Siege"> 
+        <h3 class="game">Rainbow Six Siege</h3>
+        <img class="game" src="image/siege.jpg" width="350px" height="200px" alt="Rainbow Six Siege"> 
         </div>
     </div>
     </div>

@@ -4,7 +4,7 @@
 // Connection to MySQL Database
 $config['db'] = array(
 	'host' => 'localhost',
-	'user' => 'goudvis',
+	'user' => 'root',
 	'pass' => 'up',
 	'db' => 'join_up',
 	'port' => '3306'
