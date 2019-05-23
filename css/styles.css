@@ -17,10 +17,11 @@ nav ul {
   list-style-type: none;
   overflow: hidden;
   background-image: linear-gradient(to right, rgba(13, 0, 128, 0.8) , rgba(133, 31, 192, 0.76), rgba(13, 0, 128, 0.8));
-  margin-top: 0;
   padding-left: 5px;
 }
-
+.introtext{
+  font-size: 20px;
+}
 
 nav li {
   float: left;
@@ -59,7 +60,11 @@ nav li a:hover {
 .container{
   float: right;
   position: absolute;
+<<<<<<< HEAD
   right: 225px;
+=======
+  right: 350px;
+>>>>>>> 1a7bbaec3c4a96b4a875e37203df88f4f1a1acc2
   height: auto;
 }
 .game{
@@ -69,7 +74,6 @@ nav li a:hover {
 
 
 .forum {
-  padding-top: 100px;
   margin-left: -50px;
 }
 
@@ -99,7 +103,6 @@ nav li a:hover {
 /* To make the footer fixed */
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   background-image: linear-gradient(to right, rgba(13, 0, 128, 0.8) , rgba(133, 31, 192, 0.945), rgba(13, 0, 128, 0.8));
