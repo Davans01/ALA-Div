@@ -35,7 +35,7 @@ if(isset($submit)) {
     <div class="form">
 
     <h3>Een post maken</h3>
-    
+
     <?php
     // Show the var $error if the user name or comment are empty
     if (!empty($error)) {
