@@ -59,7 +59,7 @@ nav li a:hover {
 .container{
   float: right;
   position: absolute;
-  right: 340px;
+  right: 250px;
   height: auto;
 }
 .game{
@@ -69,7 +69,6 @@ nav li a:hover {
 
 
 .forum {
-  padding-top: 100px;
   margin-left: -50px;
 }
 
