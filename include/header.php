@@ -1,4 +1,5 @@
 <header>
+    <!-- Nav -->
     <nav>
         <ul>
             <div id="logo"><li><img src="image/logo.png"></li>
