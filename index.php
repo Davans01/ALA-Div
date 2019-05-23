@@ -7,6 +7,7 @@ include("include/config.php");
 <html lang="nl">
     <head>
     <!-- Include head.php -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <?php include("include/head.php") ?>
     </head>
     <body>
@@ -15,31 +16,10 @@ include("include/config.php");
         <?php include("include/header.php") ?>
         </header>
 
-    <div class="home">
-        <!-- Main content -->
-        <p>Welkom op onze website JoinUp. <br> <br>
-           Ben jij een gamer en wil je vrienden maken in de buurt? Dit kan met onze website. <br>
-           Op deze website kunt u eigen LAN Party's organiseren, om van de gamers in de buurt, vrienden te maken.
-        <p>
-    </div>
-
-
-    <div class="populair">
-        <!-- Images -->
-        <p>Populaire games: <br><br>
-           League of Legends <br>
-           <img src="image/lol.jpg" alt="League of Legends"> <br>
-
-           Counterstrike: Global Offensive <br>
-           <img src="image/csgo.jpg" alt="Counterstrike: Global Offence"> <br>
-
-           Rainbow Six Siege <br>
-           <img src="image/siege.jpg" alt="Rainbow Six Siege"> <br>
-        </p>
-    </div>
-
-    <br> <br> <br>
-    <div class="forum">
+        <div class="container">
+    <div class="row">
+        <div class="col-sm">
+        <div class="forum">
         <p>Forum onderwerpen</p>
         <br>
            <?php
@@ -59,9 +39,41 @@ include("include/config.php");
            }
            ?>
     </div>
+        </div>
+        <div class="col-sm">
+        <h1>Welkom op onze website JoinUp.</h1>
+            <br> 
+          <p> Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+        </p>
+        </div>
+        <div class="col-sm">
+        <h2 class="game">Populaire games:</h2>
+        <h3 class="game"> League of Legends </h3> 
+        <img class="game" src="image/lol.jpg" width="350px" height="200px" alt="League of Legends">
+        
+        <h3 class="game">Counterstrike: Global Offensive</h3> 
+        <img class="game" src="image/csgo.jpg" width="350px" height="200px" alt="Counterstrike: Global Offensive"> 
+        
+        <h3 class="game">Rainbow Six Siege</h3>
+        <img class="game" src="image/siege.jpg" width="350px" height="200px" alt="Rainbow Six Siege"> 
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="container">
+        
+    </div>
+
+    <br> <br> <br>
+    
         <footer>
             <!-- Include footer.php -->
             <?php include("include/footer.php") ?>
         </footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

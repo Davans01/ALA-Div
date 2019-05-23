@@ -33,7 +33,13 @@ if(isset($submit)) {
     <?php include("include/header.php"); ?>
 
     <div class="form">
+<<<<<<< HEAD
     <h3>Een post maken</h3>
+=======
+
+    <h3>Een post maken</h3>
+    
+>>>>>>> f5c9969b0b3b76cc7057e4ca9629125dbf25c191
     <?php
     // Show the var $error if the user name or comment are empty
     if (!empty($error)) {
