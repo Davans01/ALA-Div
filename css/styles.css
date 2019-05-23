@@ -76,6 +76,7 @@ nav li a:hover {
 /* post page */
 .form {
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .form input, textarea {

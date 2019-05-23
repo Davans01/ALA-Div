@@ -38,7 +38,10 @@ include("include/config.php");
         
     </div>
 
+    <br> <br> <br>
     <div class="forum">
+        <p>Forum onderwerpen</p>
+        <br>
            <?php
            mysqli_select_db($conn, 'join_up');
            $sql = "SELECT * FROM forum";
