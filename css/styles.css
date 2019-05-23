@@ -20,7 +20,9 @@ nav ul {
   margin-top: 0;
   padding-left: 5px;
 }
-
+.introtext{
+  font-size: 20px;
+}
 
 nav li {
   float: left;
