@@ -28,6 +28,8 @@ if(isset($submit)) {
     <?php include("include/header.php"); ?>
 
     <div class="form">
+
+    <h3>Een post maken</h3>
     
     <?php
     if (!empty($error)) {
