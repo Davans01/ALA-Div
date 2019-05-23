@@ -8,9 +8,7 @@
 
 /* Header */
 .logo {
-  padding-top: 13px;
-  width: 150px;
-  height: 200px;
+  padding-top: 0px;
   float: left;
 }
 
@@ -61,14 +59,18 @@ nav li a:hover {
 .container{
   float: right;
   position: absolute;
-  right: 0;
+  right: 340px;
   height: auto;
+}
+.game{
+ position: relative;
+ left: 180px;
 }
 
 
 .forum {
   padding-top: 100px;
-  margin-left: 20px;
+  margin-left: -50px;
 }
 
 .comment {
