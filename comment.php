@@ -82,7 +82,7 @@ if(isset($submit)) {
             <tr><td>Name: <input type="text" name="name"></td></tr>
             <tr><td colspan="2">Comment: </td></tr>
             <tr><td colspan="2"><textarea name="comment"></textarea></td></tr>
-            <tr><td colspan="2"><input type="submit" name="submit" value="Plaats uw comment hier">
+            <tr><td colspan="2"><input type="submit" name="submit" value="Plaats uw comment!">
         </table>
     </form>
     </div>

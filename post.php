@@ -45,11 +45,17 @@ if(isset($submit)) {
     <!-- Form to make a post -->
     <form method="POST">
         <table>
+<<<<<<< HEAD
+            <tr><td>Username: <input type="text" name="user"></td></tr>
+            <tr><td>Title: <input type="text" name="name"></td></tr>
+            <tr><td colspan="2">Content: </td></tr>
+=======
             <tr><td>Gebruikersnaam: <input type="text" name="user"></td></tr>
             <tr><td>Titel: <input type="text" name="name"></td></tr>
             <tr><td colspan="2">Commentaar: </td></tr>
+>>>>>>> 1a7bbaec3c4a96b4a875e37203df88f4f1a1acc2
             <tr><td colspan="2"><textarea name="comment"></textarea></td></tr>
-            <tr><td colspan="2"><input type="submit" name="submit" value="Plaats uw comment hier">
+            <tr><td colspan="2"><input type="submit" name="submit" value="Maak uw post aan!">
         </table>
     </form>
 

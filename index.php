@@ -41,13 +41,19 @@ include("include/config.php");
     </div>
         </div>
         <div class="col-sm">
+<<<<<<< HEAD
+        <!-- Main content -->
+        <h1>Welkom op onze website JoinUp.</h1>
+=======
         <h1>Welkom op de website JoinUp.</h1>
+>>>>>>> 1a7bbaec3c4a96b4a875e37203df88f4f1a1acc2
             <br>
           <p class="introtext">Bent u een gamer en zoekt u andere gamers? Dan bent u hier op de juiste plek! Op deze website kunt u aan LAN-Partys meedoen en ze zelf hosten.
         </p>
         </div>
         <!-- Create columns and creating the main content of the home page -->
         <div class="col-sm">
+        <!-- Images -->
         <h2 class="game">Populaire games:</h2>
         <h3 class="game"> League of Legends </h3>
         <img class="game" src="image/lol.jpg" width="350px" height="200px" alt="League of Legends">
