@@ -1,4 +1,5 @@
 <?php
+// Include config.php
 include("include/config.php");
 
  ?>
@@ -8,7 +9,6 @@ include("include/config.php");
     <!-- Include head.php -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <?php include("include/head.php") ?>
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     </head>
     <body>
         <header>
@@ -23,10 +23,11 @@ include("include/config.php");
         <p>Forum onderwerpen</p>
         <br>
            <?php
+           // Select the db
            mysqli_select_db($conn, 'join_up');
            $sql = "SELECT * FROM forum";
            $forums = mysqli_query($conn, $sql);
-
+           // Foreach record in the table forum then echo the description and the name
            foreach ($forums as $forum) {
                echo "<pre>";
                echo "<a href='comment.php?id=".$forum['id']."' >".$forum['name']."</a>";
@@ -34,13 +35,8 @@ include("include/config.php");
                echo $forum['description'];
                echo "<br>";
                echo "<br>";
-               // var_dump($forum);
                echo "</pre>";
            }
-           // mysqli_query("SELECT * FROM forum");
-
-           // print_r($result);
-
            ?>
     </div>
         </div>

@@ -1,9 +1,11 @@
 <?php
+// Include config.php
 include("include/config.php");
-
+// Get the id from the forum
 if ($_GET['id']) {
     $id = $_GET['id'];
 }
+// If there is no id give it the id 0
 else {
     $id = 0;
 }
@@ -14,26 +16,13 @@ if ($_POST) {
     $submit= $_POST['submit'];
 }
 
-// COMMENT
 if(isset($submit)) {
     if($name && $comment) {
+        // Select the db
         mysqli_select_db($conn, 'join_up');
         $insert = "INSERT INTO comment (name, comment, forum_id) VALUES ('$name', '$comment', $id)";
         $result = mysqli_query($conn, $insert, true);
-        // print_r($result);
     }
-// END COMMENT
-
-
-// FORUM
-// if(isset($submit)) {
-//     if($name && $comment) {
-//         mysqli_select_db($conn, 'join_up');
-//         $insert = "INSERT INTO forum (name, description) VALUES ('$name', '$comment')";
-//         $result = mysqli_query($conn, $insert, true);
-//         // print_r($result);
-//     }
-// END FORUM
 
     else {
         $error = "Vul alsublieft uw naam en comment in";
@@ -41,12 +30,15 @@ if(isset($submit)) {
 }
 
 ?>
+<!-- Open html -->
 <!DOCTYPE HTML>
 <html lang="nl">
     <head>
+        <!-- Include head.php -->
         <?php include("include/head.php"); ?>
     </head>
 <body>
+    <!-- Include header.php -->
     <?php include("include/header.php");
     echo "<div class='comment'>";
     if (!empty($error)) {
@@ -55,15 +47,17 @@ if(isset($submit)) {
     ?>
 
     <?php
+    // Select db
     mysqli_select_db($conn, 'join_up');
+    // Select comments from the table comment where the forum_id is equal to the forum id
     $sql = "SELECT * FROM comment where forum_id = $id";
     $comments = mysqli_query($conn, $sql);
-
+    // Select id from the table forum
     $sql = "SELECT * FROM forum where id = $id";
     $forums = mysqli_query($conn, $sql);
 
-    // var_dump($comments);
     if ($forums) {
+        // Foreach record in forum echo the user title and description
         foreach ($forums as $forum) {
             echo "<h4>User: ".$forum['user']."</h4>";
             echo "<h2>Title: ".$forum['name']."</h2>";
@@ -73,18 +67,16 @@ if(isset($submit)) {
     }
     if ($comments) {
         foreach ($comments as $comment) {
-            // echo "<pre>";
-            // echo $comment['id'];
+            // for each record in comment echo the username and the comment
             echo "USERNAME: ".$comment['name'];
             echo "<br>";
             echo "<textarea cols='66' rows='10'>".$comment['comment']."</textarea>";
             echo "<br>";
             echo "<br>";
-            // var_dump($comment);
-            // echo "</pre>";
         }
     }
     ?>
+    <!-- Form -->
     <form method="POST">
         <table>
             <tr><td>Name: <input type="text" name="name"></td></tr>

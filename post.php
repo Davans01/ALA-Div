@@ -1,6 +1,7 @@
 <?php
+// Include config.php
 include("include/config.php");
-
+// If someone posts then do this
 if ($_POST) {
     $user= $_POST['user'];
     $name= $_POST['name'];
@@ -8,35 +9,43 @@ if ($_POST) {
     $submit= $_POST['submit'];
 }
 if(isset($submit)) {
-    if($name && $comment) {
+    if($user && $name && $comment ) {
+        // Select the database
         mysqli_select_db($conn, 'join_up');
+        // Insert the data into user name and description
         $insert = "INSERT INTO forum (user, name, description) VALUES ('$user', '$name', '$comment')";
         $result = mysqli_query($conn, $insert, true);
-        // print_r($result);
     }
     else {
         $error = "Vul alsublieft naam, title en omschrijving in";
     }
 }
 ?>
+<!-- Open html -->
 <!DOCTYPE HTML>
 <html lang="nl">
     <head>
+        <!-- Include head.php -->
         <?php include("include/head.php"); ?>
     </head>
 <body>
+    <!-- Include header.php -->
     <?php include("include/header.php"); ?>
 
     <div class="form">
 
+<<<<<<< HEAD
+=======
     <h3>Een post maken</h3>
     
+>>>>>>> 4b25b6a5b3bd2d03ac773f765f39c793b69c44f3
     <?php
+    // Show the var $error if the user name or comment are empty
     if (!empty($error)) {
         echo $error;
     }
     ?>
-    
+    <!-- Form to make a post -->
     <form method="POST">
         <table>
             <tr><td>Username: <input type="text" name="user"></td></tr>
